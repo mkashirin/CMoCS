@@ -1,0 +1,2 @@
+class LinearAlgebraError(Exception):
+    pass
