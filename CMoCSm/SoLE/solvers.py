@@ -206,7 +206,7 @@ class TridiagonalMatrixSolver(Solver):
         """
         Perform forward run-trough.
 
-            :param scalars_vector: Column vector of scalars_vector;
+            :param scalars_vector: Column vector of scalars;
             :param rows: number of rows of the matrix;
             :param alpha: alpha;
             :param beta: beta;
@@ -232,7 +232,7 @@ class TridiagonalMatrixSolver(Solver):
         """
         Perform backward run-trough.
 
-            :param solution_vector: Solution matrix in which the first row is computed;
+            :param solution_vector: Solution matrix in which the first row is already computed;
             :param coefficient_p: P;
             :param coefficient_q: Q.
             :return: The solution vector.
